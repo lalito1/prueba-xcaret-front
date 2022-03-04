@@ -15,7 +15,7 @@ function App() {
           <Header/>
           <div className="container">
             <Switch>
-              <Route exact path="/home" component={Home} />
+              <Route exact path="/" component={Home} />
               <Route exact path="/blog/:name" component={Blog}/>
               <Route path="*" component={NotFound} />
             </Switch>
